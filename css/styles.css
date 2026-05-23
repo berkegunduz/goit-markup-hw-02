@@ -1,0 +1,148 @@
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-400 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.roboto-500 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.roboto-700 {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+.nav-list {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  display: flex;
+  gap: 20px;
+}
+.contacts {
+  font-family: "Roboto", sans-serif;
+  font-weight: regular;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 4%;
+  text-decoration: underline;
+  display: flex;
+  gap: 20px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  text-align: center;
+}
+.order-service {
+  background-color: #2e2f42;
+  text-align: center;
+}
+
+.main-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 56px;
+  letter-spacing: 2%;
+  line-height: 60px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: #404bbf;
+}
+.values h2 {
+text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 2%;
+  display: flex;
+}
+.values ul {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.team {
+  background-color: #e7e9fc;
+  text-align: center;
+}
+
+.team h2 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 2%;
+}
+
+.team ul {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: medium;
+    font-size: 20px;
+    letter-spacing: 2%;
+    
+
+}
+
+.portfolio h2 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 2%;
+}
+.portfolio ul {
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    justify-items: center; 
+    list-style: none;
+    padding: 0;
+}

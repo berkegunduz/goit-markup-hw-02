@@ -28,11 +28,11 @@
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
-body{
-    font-family: "Roboto", sans-serif;
-    color: black;
+body {
+  font-family: "Roboto", sans-serif;
+  color: black;
 }
-p{
+p {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
@@ -97,7 +97,7 @@ ul {
   background-color: #404bbf;
 }
 .values h2 {
-text-align: center;
+  text-align: center;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 36px;
@@ -116,11 +116,11 @@ text-align: center;
 }
 
 .team h2 {
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    font-size: 36px;
-    letter-spacing: 2%;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 2%;
 }
 
 .team ul {
@@ -129,39 +129,37 @@ text-align: center;
   justify-content: center;
 }
 
-h3{
-    font-family: "Roboto", sans-serif;
-    font-weight: medium;
-    font-size: 20px;
-    letter-spacing: 2%;
-    
-
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: medium;
+  font-size: 20px;
+  letter-spacing: 2%;
 }
 
 .portfolio h2 {
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    font-size: 36px;
-    letter-spacing: 2%;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 2%;
 }
 .portfolio ul {
   display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1px;
-    justify-items: center; 
-    list-style: none;
-    padding: 0;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  justify-items: center;
+  list-style: none;
+  padding: 0;
 }
 
-.footer{
+.footer {
   background-color: #2e2f42;
-  color:white;
+  color: white;
   text-align: left;
   padding: 20px;
 }
 
-.footer a{
+.footer a {
   color: white;
   text-decoration: none;
 }

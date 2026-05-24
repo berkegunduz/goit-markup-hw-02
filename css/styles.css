@@ -30,7 +30,12 @@
 }
 body{
     font-family: "Roboto", sans-serif;
-    
+    color: black;
+}
+p{
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
 }
 ul {
   list-style: none;
@@ -38,7 +43,7 @@ ul {
   display: flex;
   gap: 20px;
 }
-.nav-list {
+.header .nav-list {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 16px;
@@ -46,22 +51,23 @@ ul {
   letter-spacing: 4%;
   display: flex;
   gap: 20px;
+  text-align: left;
 }
-.contacts {
+.header .contacts {
   font-family: "Roboto", sans-serif;
   font-weight: regular;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 4%;
-  text-decoration: underline;
+  text-decoration: none;
   display: flex;
   gap: 20px;
+  text-align: left;
 }
 .header {
   display: flex;
   justify-content: space-between;
   gap: 5px;
-  text-align: center;
 }
 .order-service {
   background-color: #2e2f42;
@@ -146,4 +152,16 @@ h3{
     justify-items: center; 
     list-style: none;
     padding: 0;
+}
+
+.footer{
+  background-color: #2e2f42;
+  color:white;
+  text-align: left;
+  padding: 20px;
+}
+
+.footer a{
+  color: white;
+  text-decoration: none;
 }

@@ -31,7 +31,7 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-a{
+a {
   text-decoration: none;
 }
 p {
@@ -54,10 +54,10 @@ ul {
   display: flex;
   gap: 20px;
   text-align: left;
-  color: #2E2F42;
+  color: #2e2f42;
 }
 .header .nav-list a:hover {
-  color: #404BBF;
+  color: #404bbf;
 }
 .header .contacts {
   display: flex;
@@ -74,14 +74,14 @@ ul {
   color: #434455;
 }
 .header .contacts a:hover {
-  color: #404BBF;
+  color: #404bbf;
 }
 .header {
   display: flex;
   justify-content: space-between;
   gap: 5px;
 }
-.logo{
+.logo {
   font-family: "Raleway", sans-serif;
   line-height: 1.16;
   font-weight: 700;
@@ -89,7 +89,7 @@ ul {
   color: #4d5ae5;
 }
 .logo-highlight {
-  color: #2E2F42;
+  color: #2e2f42;
 }
 .order-service {
   background-color: #2e2f42;
@@ -114,8 +114,8 @@ ul {
   font-size: 16px;
   cursor: pointer;
 }
-.button:hover{
-  background-color: #404BBF;
+.button:hover {
+  background-color: #404bbf;
 }
 
 .button:active {
@@ -197,5 +197,3 @@ h3 {
 .logo-highlight-footer {
   color: white;
 }
-
-
